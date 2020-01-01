@@ -10,10 +10,9 @@ def using_pop(continents)
   continents.pop
 end
 #
-# dog_breeds = ["Chihuahua", "Shiba Inu"]
-def pop_with_args(dog_breeds)
-  small_dogs = ["Chihuahua", "Shiba Inu"]
-  dog_breeds.pop(small_dogs(2))
+small_dogs = ["Chihuahua","Shiba Inu"]
+def pop_with_args(small_dogs,dog_breeds)
+    small_dogs.pop
 end
 #
 # def using_shift(im_so_over_this_city, my_favorite_cities)
