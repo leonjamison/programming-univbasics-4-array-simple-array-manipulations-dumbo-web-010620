@@ -12,7 +12,7 @@ end
 #
 small_dogs = ["Chihuahua","Shiba Inu"]
 def pop_with_args(small_dogs)
-    small_dogs.pop(1)
+    small_dogs.pop(2)
 end
 #
 # def using_shift(im_so_over_this_city, my_favorite_cities)
