@@ -10,7 +10,7 @@ def using_pop(continents)
   continents.pop
 end
 #
-# small_dogs = ["Chihuahua","Shiba Inu"]
+small_dogs = ["Chihuahua","Shiba Inu"]
 def pop_with_args(small_dogs)
     small_dogs.pop(1)
 end
