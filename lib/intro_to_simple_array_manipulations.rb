@@ -10,12 +10,40 @@ def using_pop(continents)
   continents.pop
 end
 #
-# dog_breeds = ["Chihuahua", "Shiba Inu"]
-def pop_with_args(dog_breeds)
-  small_dogs = ["Chihuahua", "Shiba Inu"]
-  dog_breeds.pop(small_dogs(2))
+small_dogs = ["Chihuahua","Shiba Inu"]
+def pop_with_args(small_dogs)
+    small_dogs.pop(2)
 end
-#
-# def using_shift(im_so_over_this_city, my_favorite_cities)
-#   im_so_over_this_city.shift(my_favorite_cities)
-# end
+
+def using_shift(im_so_over_this_city)
+  im_so_over_this_city.shift
+end
+
+# ice_cream_brands =
+def shift_with_args(ice_cream_brands)
+  ice_cream_brands.shift(2)
+end
+
+def using_concat(my_favorite_things,more_favs)
+  my_favorite_things.concat(more_favs)
+end
+
+def using_insert(list_of_programming_languages,another_language)
+  list_of_programming_languages.insert(4,"Python")
+end
+
+def using_uniq(haircuts)
+  haircuts.uniq
+end
+
+def using_flatten(instruments)
+  instruments.flatten
+end
+
+def using_delete(array, string)
+  array.delete(string)
+end
+
+def using_delete_at(array, num)
+  array.delete_at(num)
+end
