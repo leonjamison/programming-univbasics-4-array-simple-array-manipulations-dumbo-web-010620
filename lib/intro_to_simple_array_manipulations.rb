@@ -40,6 +40,10 @@ def using_flatten(instruments)
   instruments.flatten
 end
 
-def using_delete(no_offense_steven, "Steven")
-  no_offense_steven.delete("Steven")
-end 
+def using_delete(array, string)
+  array.delete(string)
+end
+
+def using_delete_at(array, num)
+  array.delete_at(num)
+end
