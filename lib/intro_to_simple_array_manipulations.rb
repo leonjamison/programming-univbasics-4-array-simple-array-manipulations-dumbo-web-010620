@@ -38,4 +38,8 @@ end
 
 def using_flatten(instruments)
   instruments.flatten
+end
+
+def using_delete(instruments, "Steven")
+  instruments.delete("Steven")
 end 
