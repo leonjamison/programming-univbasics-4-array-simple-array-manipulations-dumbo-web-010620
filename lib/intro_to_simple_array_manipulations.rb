@@ -16,5 +16,5 @@ def pop_with_args(small_dogs)
 end
 
 def using_shift(im_so_over_this_city, my_favorite_cities)
-  im_so_over_this_city.shift(my_favorite_cities)
+  im_so_over_this_city.shift(1)
 end
